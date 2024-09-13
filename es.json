@@ -432,11 +432,11 @@
                 "description": "Puedes contactarnos en cualquier momento, te ayudaremos a encontrar la solución humana y técnica adecuada para tu proyecto.",
                 "address": "47 BD LALLA YACOUT </br> 20000 CASABLANCA",
                 "email": "zedino email",
-                "phone": "+33 (0)6 79 51 95 95"
+                "phone": "+212 (0)6 78 31 42 20"
             },
             "map": {
-                "latitude": 48.878660,
-                "longitude": 2.293710
+                "latitude": 33.593963,
+                "longitude": -7.619142
             },
             "legal_title": "Parte legal",
             "legal_links": [
@@ -485,7 +485,7 @@
                 "editor": {
                     "name": "Zedino",
                     "address": "47 BD LALLA YACOUT 20000 CASABLANCA MARRUECOS",
-                    "phone": "+33 (0)6 79 51 95 95",
+                    "phone": "+212 (0)6 78 31 42 20",
                     "email": "zedino email",
                     "legal_form": "SAS, sociedad por acciones simplificada",
                     "num_tva": "FR05917800450",

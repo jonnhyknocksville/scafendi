@@ -432,11 +432,11 @@
                 "description": "يمكنك التواصل معنا في أي وقت، سنساعدك في العثور على الحل البشري والتقني المناسب لمشروعك.",
                 "address": "47 BD LALLA YACOUT </br> 20000 الدار البيضاء",
                 "email": "zedino email",
-                "phone": "+33 (0)6 79 51 95 95"
+                "phone": "+212 (0)6 78 31 42 20"
             },
             "map": {
-                "latitude": 48.878660,
-                "longitude": 2.293710
+                "latitude": 33.593963,
+                "longitude": -7.619142
             },
             "legal_title": "القسم القانوني",
             "legal_links": [
@@ -485,7 +485,7 @@
                 "editor": {
                     "name": "زيدينو",
                     "address": "47 BD LALLA YACOUT 20000 الدار البيضاء المغرب",
-                    "phone": "+33 (0)6 79 51 95 95",
+                    "phone": "+212 (0)6 78 31 42 20",
                     "email": "zedino email",
                     "legal_form": "شركة مساهمة مبسطة",
                     "num_tva": "FR05917800450",
