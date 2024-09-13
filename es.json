@@ -1,12 +1,12 @@
 {
     "site": {
-        "title": "Zedino",
+        "title": "Scafendi",
         "favicon": "favicon.png",
         "logo": "logo.png",
         "logo_footer": "logo_footer.png",
         "header-page": "header-page.jpg",
         "header-page-alt": "Imagen de la empresa",
-        "description": "¡Transformamos tu empresa en un sitio web, una aplicación móvil y una aplicación web! ZEDINO, la Agencia Web Técnica, tu socio en el mundo virtual.",
+        "description": "Transformamos tu empresa en un sitio web, aplicación móvil y web app. ¡SCAFENDI, la Agencia Web Técnica, tu socio en el mundo digital!",
         "text_color": "#fff",
         "text_color_dark": "#666",
         "title_color": "#34303B",
@@ -76,7 +76,7 @@
         },
         {
             "label": "Blog",
-            "href": "https://www.blog.zedino.com"
+            "href": "https://www.blog.scafendi.com"
         },
         {
             "label": "Contacto",
@@ -87,20 +87,20 @@
     "button-services": "Nuestros servicios",
     "button-contact": "Contáctanos",
     "button-services-aria-label": "Enlace a nuestros servicios",
-    "button-contact-aria-label": "Enlace a nuestra información de contacto",
+    "button-contact-aria-label": "Enlace a nuestros datos de contacto",
     "caroussel": [
         {
             "title": "Tu empresa en Internet",
-            "text": "Zedino es una Agencia Web especializada en la creación de sitios web y aplicaciones móviles",
-            "button_1": "Más información",
+            "text": "Scafendi es una Agencia Web especializada en la creación de sitios web y aplicaciones móviles.",
+            "button_1": "Saber más",
             "button_2": "Cotización inmediata",
             "button_1_href": "#presentation",
             "button_2_href": "#devis"
         },
         {
             "title": "Más que un sitio, tu negocio",
-            "text": "Sitios e-commerce seguros (https) </br> Sitios de reservas en línea seguros (https) </br> Aplicaciones móviles </br> Mantenimiento ...",
-            "button_1": "Más información",
+            "text": "Sitios de comercio electrónico seguros (https)</br> Sitios de reservas en línea seguros (https)</br> Aplicaciones móviles</br> Mantenimiento...",
+            "button_1": "Saber más",
             "button_2": "Cotización inmediata",
             "button_1_href": "#presentation",
             "button_2_href": "#devis"
@@ -112,57 +112,57 @@
     "presentation": [
         {
             "key_number": "<h3><span>10</span></h3><h4>años<br>de experiencia</h4>",
-            "text": "<b>Agencia Web</b>, nuestro equipo domina las estrategias de comunicación digital y te acompaña en la creación de tus sitios web y aplicaciones móviles. <b>Expertos técnicos en desarrollo</b>, te ofrecemos soluciones a medida llave en mano."
+            "text": "<b>Agencia Web</b>, nuestro equipo domina las estrategias de comunicación digital y te acompaña en la creación de tus sitios web y aplicaciones móviles.<b>Expertos técnicos en desarrollo</b>, ofrecemos soluciones personalizadas y llave en mano."
         },
         {
             "key_number": "<h3><span>52</span></h3><h4>clientes<br>satisfechos</h4>",
-            "text": "Análisis de tus necesidades y asesoramiento, <em>UX</em>, diseño, desarrollo, así como, <em>SEO, inbound marketing</em>; cubrimos todas las necesidades relacionadas con tu proyecto digital, luego, nos encargamos de su alojamiento, seguimiento y mantenimiento durante todo su uso."
+            "text": "Análisis de tus necesidades y asesoría, <em>UX</em>, diseño, desarrollo, y también, <em>SEO, inbound marketing</em>; cubrimos todos los aspectos de tu proyecto digital, y luego, nos encargamos de su hosting, seguimiento y mantenimiento a lo largo de su uso."
         }
     ],
     "services_details": [
         {
-            "icon": "fas fa-laptop-code",
+            "icon": "fas fa-code",
             "title": "Desarrollo",
-            "text": "Aceptamos todos los desafíos técnicos. ¡Consúltanos!"
+            "text": "Nos enfrentamos a todos los desafíos técnicos. ¡Consúltanos!"
         },
         {
             "icon": "fas fa-globe",
             "title": "Sitio Corporativo",
-            "text": "Imagina, crea y promociona tu sitio web."
+            "text": "Imagina, crea y promueve tu sitio web."
         },
         {
-            "icon": "fas fa-shopping-cart",
+            "icon": "fas fa-shopping-bag",
             "title": "E-commerce",
             "text": "Tienda llave en mano para gestionar y vender tus productos."
         },
         {
-            "icon": "fas fa-mobile-alt",
+            "icon": "fas fa-mobile-screen",
             "title": "App Móvil",
             "text": "Tu presencia en Play Store y App Store."
         },
         {
-            "icon": "fas fa-desktop",
-            "title": "Diseño Web Responsive",
-            "text": "Diseño Web Responsive, compatible con todos los dispositivos."
+            "icon": "fas fa-laptop",
+            "title": "Diseño Responsivo",
+            "text": "Diseño Web Responsivo, compatible con todos los dispositivos."
         },
         {
-            "icon": "fas fa-headset",
+            "icon": "fas fa-headphones",
             "title": "Mantenimiento",
-            "text": "Alojamiento, seguimiento y mantenimiento con un tiempo de respuesta de 6 horas."
+            "text": "Hosting, soporte y mantenimiento con un tiempo de respuesta de 6h."
         },
         {
-            "icon": "fas fa-envelope",
-            "title": "Correo Electrónico",
-            "text": "Creación y gestión de cuentas @tusitio.com."
+            "icon": "fas fa-envelope-open-text",
+            "title": "Correo electrónico",
+            "text": "Creación y gestión de cuentas de correo @tuempresa.com."
         },
         {
-            "icon": "fas fa-newspaper",
-            "title": "Boletín Informativo",
-            "text": "Creación y seguimiento de tus campañas de boletines."
+            "icon": "fas fa-paper-plane",
+            "title": "Boletín",
+            "text": "Creación y seguimiento de tus campañas de boletín."
         }
     ],
     "technologies_title": "Tecnologías que utilizamos",
-    "technologies_description": "Utilizamos tecnologías modernas y probadas para garantizar soluciones de calidad.",
+    "technologies_description": "Empleamos tecnologías modernas y comprobadas para garantizar soluciones de calidad.",
     "technologies": [
         {
             "label": "Angular",
@@ -245,44 +245,44 @@
             "author_name": "Samih Habbani",
             "relative_time_description": "Hace 6 meses",
             "rating": 5,
-            "text": "Equipo profesional, receptivo y atento. Recomiendo los servicios de Zedino."
+            "text": "Equipo profesional, reactivo y atento. Recomiendo los servicios de Scafendi."
         },
         {
             "author_name": "Thérèse Léandre",
             "relative_time_description": "Hace 3 meses",
             "rating": 5,
-            "text": "Muy satisfechos con nuestra colaboración con Zedino en París para el desarrollo de nuestra aplicación web. Trabajo de calidad, equipo receptivo y profesional. ¡Recomiendo encarecidamente sus servicios!"
+            "text": "Muy satisfecho con nuestra colaboración con Scafendi para el desarrollo de nuestra aplicación web. Trabajo de calidad, equipo reactivo y profesional. ¡Altamente recomendable!"
         },
         {
             "author_name": "Shaade H",
             "relative_time_description": "Hace 3 semanas",
             "rating": 5,
-            "text": "Excelente experiencia con Zedino en París para el desarrollo de nuestra aplicación móvil. Servicio rápido, profesional y de calidad. Muy satisfecho con el resultado final. ¡Lo recomiendo mucho!"
+            "text": "Excelente experiencia con Scafendi para el desarrollo de nuestra aplicación móvil. Servicio rápido, profesional y de calidad. Muy satisfecho con el resultado final. ¡Altamente recomendable!"
         },
         {
             "author_name": "Emily White",
             "relative_time_description": "Hace 2 días",
             "rating": 5,
-            "text": "Muy satisfecha con el trabajo realizado. Recomiendo los servicios de Zedino."
+            "text": "Muy satisfecha con el trabajo realizado. Recomiendo los servicios de Scafendi."
         },
         {
             "author_name": "Michel Verd",
             "relative_time_description": "Hace 1 semana",
             "rating": 4,
-            "text": "Servicio rápido, pero podría mejorar en algunos aspectos."
+            "text": "Servicio rápido, aunque algunos aspectos podrían mejorar."
         }
     ],
     "partners_title": "Nuestros socios",
-    "partners_description": "Colaboramos con socios de primer nivel para ofrecer las mejores soluciones a nuestros clientes. Nuestra red de socios nos permite estar a la vanguardia de la tecnología y ofrecer servicios innovadores adaptados a las necesidades de cada uno.",
+    "partners_description": "Colaboramos con socios de primer nivel para ofrecer las mejores soluciones a nuestros clientes. Nuestra red de socios nos permite estar a la vanguardia de la tecnología y ofrecer servicios innovadores, adaptados a las necesidades de cada uno.",
     "partners": [
         {
-            "name": "Zedino",
+            "name": "Scafendi",
             "logo": "partner-1.png",
-            "href": "https://www.zedino.com"
+            "href": "https://www.scafendi.com"
         }
     ],
     "clients_title": "Nuestros clientes",
-    "clients_description": "Estamos orgullosos de trabajar con clientes prestigiosos y de ofrecerles servicios que cumplen con sus altas expectativas. Nuestro objetivo es construir relaciones sólidas y duraderas con cada uno de nuestros clientes.",
+    "clients_description": "Estamos orgullosos de trabajar con clientes prestigiosos y ofrecerles servicios que cumplen con sus altas expectativas. Nuestro objetivo es construir relaciones sólidas y duraderas con cada uno de nuestros clientes.",
     "clients": [
         {
             "name": "QualisColis",
@@ -329,128 +329,128 @@
             "company_image": "https://source.unsplash.com/500x500/?office,computer",
             "services": {
                 "title": "Valor para nuestros clientes",
-                "description": "Zedino es un actor probado en el desarrollo de aplicaciones y software empresarial. Somos expertos en la extensión de equipo entre tus colaboradores, en AgileSquads y en servicios de consultoría IT."
+                "description": "Scafendi es un actor probado en el desarrollo de aplicaciones y software empresarial. Somos expertos en la ampliación de equipos dentro de tus colaboradores, en AgileSquads y en servicios de consultoría IT."
             },
             "service_cards": [
                 {
                     "image": "services-1.jpg",
-                    "title": "Refuerzos de equipo",
-                    "description": "<b>- Extensiones de equipo </b>: Nuestro talentoso equipo técnico se convierte en una extensión de tu equipo, ahorrándote tiempo y recursos en la contratación e integración. </br><b>- Desarrollo a largo plazo</b>: nuestro equipo invierte tanto en el éxito de tu proyecto como tu propio equipo."
+                    "title": "Refuerzo de equipos",
+                    "description": "<b>- Extensión de equipo</b> : Nuestro talentoso equipo técnico se convierte en una extensión de tu equipo, ahorrándote tiempo y recursos en reclutamiento e integración. </br><b>- Desarrollo a largo plazo</b> : nuestro equipo está tan comprometido con el éxito de tu proyecto como tu propio equipo."
                 },
                 {
                     "image": "services-2.jpg",
                     "title": "AgileSquads",
-                    "description": "<b>- Delegación inteligente </b>: no es necesario asignar personal interno para crear un proyecto desde cero. </br><b>- Resultados más rápidos</b>: con el enfoque AgileSquads, las interacciones cortas garantizan que cada etapa de tu proyecto se implemente a tiempo. </br><b>- Transparencia y control </b>: es fácil transmitir los requisitos a un AgileSquad listo para usar y verificar periódicamente el progreso."
+                    "description": "<b>- Delegación inteligente</b> : no es necesario asignar personal interno para crear un proyecto desde cero. </br><b>- Resultados más rápidos</b> : con el enfoque AgileSquads, las interacciones cortas aseguran que cada etapa de tu proyecto se implemente a tiempo. </br><b>- Transparencia y control</b> : es fácil transmitir los requisitos a un AgileSquad listo para trabajar y verificar periódicamente el progreso."
                 },
                 {
                     "image": "services-3.jpg",
                     "title": "Consultoría IT",
-                    "description": "<b>- Desarrollo de estrategia </b>: Obtén la ayuda que necesitas para traducir tus objetivos comerciales en planes tecnológicos antes de formar tu equipo. </br> <b>- Evaluación de la situación </b>: Obtén una segunda opinión sobre los desafíos que enfrentas y recomendaciones para avanzar. </br><b>- Prepárate para asociarte </b>: Podemos ayudarte a definir un proyecto de una manera que te permita trabajar con un socio tecnológico en tus necesidades de desarrollo de software."
+                    "description": "<b>- Desarrollo de estrategia</b> : obtén la ayuda que necesitas para traducir tus objetivos comerciales en planes tecnológicos antes de construir tu equipo.</br> <b>- Evaluación de la situación</b> : recibe una segunda opinión sobre los desafíos que enfrentas y recomendaciones para avanzar. </br><b>- Prepárate para asociarte</b> : podemos ayudarte a definir un proyecto de manera que puedas trabajar con un socio tecnológico para tus necesidades de desarrollo de software."
                 }
             ],
             "profiles": {
                 "title": "Nuestros perfiles",
-                "description": "Te ofrecemos todo un escuadrón de perfiles expertos en total consonancia con tus necesidades y completamente orientado al producto.",
+                "description": "Te ofrecemos todo un equipo de expertos alineados con tus necesidades y completamente orientados al producto.",
                 "members": [
                     {
                         "name": "Scrum Master",
                         "photo": "members-1",
-                        "description": "¡El maestro del equipo!💡"
+                        "description": "¡El maestro del equipo! 💡"
                     },
                     {
                         "name": "Devops",
                         "photo": "members-2",
-                        "description": "Fiabilidad, rendimiento y escalabilidad!🖥️"
+                        "description": "¡Fiabilidad, rendimiento y escalabilidad! 🖥️"
                     },
                     {
                         "name": "Coach Agile",
                         "photo": "members-3",
-                        "description": "¿Safe, Scrum, Kanban..? 🚀"
+                        "description": "Safe, Scrum, Kanban..? 🚀"
                     },
                     {
                         "name": "Product Owner",
                         "photo": "members-4",
-                        "description": "¡El enlace comercial esencial!💡"
+                        "description": "¡El enlace esencial con el negocio! 💡"
                     },
                     {
                         "name": "BackEnd Developer",
                         "photo": "members-5",
-                        "description": "¡Definitivamente hay una API para hacer eso!🖥️"
+                        "description": "¡Seguro que hay una API para eso! 🖥️"
                     },
                     {
                         "name": "UX / UI",
                         "photo": "members-6",
-                        "description": "¡Emoción en nuestras apps! 🚀"
+                        "description": "¡Emociones en nuestras apps! 🚀"
                     },
                     {
                         "name": "Business Analyst",
                         "photo": "members-7",
-                        "description": "\"Desafiar\" es la palabra clave!💡"
+                        "description": "\"¡Desafiar!\" es la palabra clave 💡"
                     },
                     {
                         "name": "FrontEnd Developer",
                         "photo": "members-8",
-                        "description": "¡Compatible con todos los dispositivos!🤓"
+                        "description": "¡Compatible con todos los dispositivos! 🤓"
                     },
                     {
                         "name": "Software Quality Analyst",
                         "photo": "members-9",
-                        "description": "¡Yo te cubro!"
+                        "description": "¡Te cubro las espaldas!"
                     }
                 ]
             },
             "approach": {
                 "title": "Nuestro Enfoque",
-                "description": "Cubrimos todos los aspectos del proceso de ingeniería de software, comenzando con tu estrategia. Así que, mientras diseñamos, desarrollamos y respaldamos tus productos de software, puedes centrarte en tu negocio principal.",
-                "content": "Nuestro enfoque está centrado en el cliente, con soluciones a medida.",
+                "description": "Cubrimos todos los aspectos del proceso de ingeniería de software, empezando por tu estrategia. Mientras diseñamos, desarrollamos y mantenemos tus productos de software, puedes centrarte en tu actividad principal.",
+                "content": "Nuestro enfoque está centrado en el cliente, con soluciones personalizadas.",
                 "points": [
                     {
                         "icon": "fas fa-cogs",
                         "title": "Análisis y conceptualización",
-                        "description": "Análisis, diseño y creación de maquetas para soluciones a medida."
+                        "description": "Análisis detallado y conceptualización de tus necesidades para soluciones a medida."
                     },
                     {
-                        "icon": "fas fa-users",
-                        "title": "Diseño y desarrollo",
-                        "description": "Tecnologías adecuadas y desarrollo con seguimiento en tiempo real."
+                        "icon": "fas fa-laptop",
+                        "title": "Desarrollo y Diseño",
+                        "description": "Desarrollo adaptado a las últimas tecnologías y diseño centrado en el usuario."
                     },
                     {
                         "icon": "fas fa-chart-line",
-                        "title": "Eficiencia y Rendimiento",
-                        "description": "Optimización de tus sistemas para un mejor rendimiento."
+                        "title": "Rendimiento y Eficiencia",
+                        "description": "Optimización y mejora continua para garantizar el mejor rendimiento de tus soluciones."
                     },
                     {
                         "icon": "fas fa-shield-alt",
-                        "title": "Promoción y mantenimiento",
-                        "description": "Optimización SEO/SEA, formación en redes sociales, alojamiento y mantenimiento garantizados."
+                        "title": "Promoción y Soporte",
+                        "description": "Alojamiento, mantenimiento y soporte post-lanzamiento con monitoreo constante."
                     }
                 ]
             },
             "contact": {
                 "header_title": "Contáctanos",
                 "title": "Contacto",
-                "description": "Puedes contactarnos en cualquier momento, te ayudaremos a encontrar la solución humana y técnica adecuada para tu proyecto.",
+                "description": "Ponte en contacto con nosotros para discutir tus proyectos y cómo podemos ayudarte a convertir tus ideas en realidad.",
                 "address": "47 BD LALLA YACOUT </br> 20000 CASABLANCA",
-                "email": "zedino email",
+                "email": "email de scafendi",
                 "phone": "+212 (0)6 78 31 42 20"
             },
             "map": {
                 "latitude": 33.593963,
                 "longitude": -7.619142
             },
-            "legal_title": "Parte legal",
+            "legal_title": "Parte Legal",
             "legal_links": [
                 {
-                    "label": "Condiciones Generales de Uso",
-                    "page": "condition_generales_utilisation"
+                    "label": "Términos y Condiciones",
+                    "page": "terminos_condiciones"
                 },
                 {
-                    "label": "Cookies",
-                    "page": "politique_cookies"
+                    "label": "Política de Cookies",
+                    "page": "politica_cookies"
                 },
                 {
                     "label": "Aviso Legal",
-                    "page": "mention_legales"
+                    "page": "aviso_legal"
                 }
             ],
             "social_links_title": "Síguenos",
@@ -462,7 +462,7 @@
                 },
                 {
                     "platform": "linkedin",
-                    "url": "https://www.linkedin.com/company/Zedino/",
+                    "url": "https://www.linkedin.com/company/Scafendi/",
                     "icon": "fab fa-linkedin"
                 },
                 {
@@ -472,94 +472,10 @@
                 },
                 {
                     "platform": "blog",
-                    "url": "https://www.blog.Zedino.com",
+                    "url": "https://www.blog.scafendi.com",
                     "icon": "fas fa-blog"
                 }
             ]
-        },
-        "mention_legales": {
-            "title": "Nuestro Aviso Legal",
-            "content": {
-                "introduction": "De acuerdo con las disposiciones de los Artículos 6-III y 19 de la Ley N°2004-575 del 21 de junio de 2004 sobre la Confianza en la Economía Digital, conocida como L.C.E.N., se informa a los usuarios y visitantes del sitio de Zedino sobre el presente aviso legal.",
-                "editor_title": "1 - Editor del sitio",
-                "editor": {
-                    "name": "Zedino",
-                    "address": "47 BD LALLA YACOUT 20000 CASABLANCA MARRUECOS",
-                    "phone": "+212 (0)6 78 31 42 20",
-                    "email": "zedino email",
-                    "legal_form": "SAS, sociedad por acciones simplificada",
-                    "num_tva": "FR05917800450",
-                    "dir_publication": "ZIAD JAAGOUB"
-                },
-                "publication_manager_title": "2 - Responsable de la publicación",
-                "publication_manager": {
-                    "name": "Ziad Jaagoub",
-                    "email": "zedino email"
-                },
-                "host_title": "3 - Alojamiento del sitio",
-                "host": {
-                    "name": "OVH CLOUD",
-                    "address": "2, rue Kellermann, 59100 Roubaix",
-                    "phone": "+33 9 72 10 10 07",
-                    "email": "hebergeur@exemple.com"
-                },
-                "personal_data_title": "4 - Datos personales",
-                "personal_data": {
-                    "data_treament": "OVH CLOUD",
-                    "access_right": "2, rue Kellermann, 59100 Roubaix",
-                    "dpo": "+33 9 72 10 10 07"
-                },
-                "cookies_title": "Cookies",
-                "cookies": {
-                    "data_treament": "OVH CLOUD"
-                },
-                "intellectual_property_title": "5 - Propiedad intelectual",
-                "intellectual_property": {
-                    "author_right": "Todo el contenido presente en este sitio, incluyendo, sin limitarse a ello, textos, imágenes, gráficos, logotipos, iconos, sonidos, software, así como su disposición, es propiedad exclusiva de Zedino o de sus respectivos autores. Estos elementos están protegidos por las leyes francesas e internacionales relativas a la propiedad intelectual. Cualquier reproducción, distribución, modificación, adaptación, retransmisión o publicación de estos elementos está estrictamente prohibida sin la previa autorización por escrito de Zedino. Su uso sin autorización previa expone al infractor a acciones legales.",
-                    "brands": "Las marcas y logotipos presentes en este sitio están registrados por Zedino o, eventualmente, por sus socios. Cualquier reproducción total o parcial de estas marcas o logotipos, realizada a partir de los elementos del sitio sin la autorización expresa de Zedino o de sus propietarios, está prohibida en virtud del artículo L.713-2 del Código de Propiedad Intelectual."
-                },
-                "responsible_limitation_title": "6 - Limitación de responsabilidad",
-                "responsible_limitation": {
-                    "information_exactitude": "Zedino se esfuerza por proporcionar en este sitio información lo más precisa y actualizada posible. Sin embargo, Zedino no puede garantizar la exactitud, integridad o relevancia de la información presentada en este sitio, ya sea proporcionada por Zedino o por terceros socios. En consecuencia, Zedino declina toda responsabilidad por cualquier inexactitud, error u omisión en dicha información, así como por cualquier daño directo o indirecto resultante de su uso.",
-                    "web_site_utilisation": "El usuario es el único responsable del uso que haga de los contenidos e información presente en el sitio. En ningún caso, Zedino será responsable de los daños directos o indirectos resultantes del uso de este sitio o de otros sitios enlazados a él. Zedino también declina toda responsabilidad por las interrupciones del sitio, los fallos técnicos o cualquier daño resultante de la intrusión fraudulenta de un tercero que haya provocado una modificación de la información puesta a disposición en el sitio."
-                },
-                "applicable_right_title": "7 - Derecho aplicable",
-                "applicable_right": {
-                    "info": "Este sitio y su aviso legal se rigen por la legislación francesa. Cualquier disputa relacionada con el uso de este sitio estará sujeta a la jurisdicción exclusiva de los tribunales franceses. En caso de disputa, el idioma de referencia es el francés."
-                },
-                "credits_title": "8 - Créditos",
-                "credits": "El aviso legal ha sido generado por Zedino. Las imágenes e ilustraciones son proporcionadas por Zedino."
-            }
-        },
-        "condition_generales_utilisation": {
-            "title": "Condiciones Generales de Uso",
-            "content": {
-                "introduction": "Aquí están las condiciones generales de uso de nuestro sitio.",
-                "section_1_title": "Objeto",
-                "section_1": "Las presentes condiciones generales de uso determinan las reglas de acceso y las modalidades de uso del sitio de Zedino.",
-                "section_2_title": "Aceptación de las Condiciones",
-                "section_2": "El uso del sitio implica la aceptación plena y total de las presentes condiciones generales de uso.",
-                "section_3_title": "Servicios Ofrecidos",
-                "section_3": "Zedino proporciona servicios de consultoría en sistemas y software informáticos, desarrollo de sitios web y software.",
-                "section_4_title": "Responsabilidad",
-                "section_4": "Zedino no será responsable de los daños directos e indirectos causados al equipo del usuario, durante el acceso al sitio de Zedino.",
-                "section_5_title": "Datos Personales",
-                "section_5": "Zedino se compromete a respetar la confidencialidad de los datos personales proporcionados por los usuarios del sitio.",
-                "section_6_title": "Modificaciones de las Condiciones",
-                "section_6": "Zedino se reserva el derecho de modificar en cualquier momento las presentes condiciones generales de uso."
-            }
-        },
-        "politique_cookies": {
-            "title": "Política de Cookies",
-            "content": {
-                "introduction": "Utilizamos cookies para mejorar tu experiencia en nuestro sitio. Aquí te explicamos cómo las usamos y cómo puedes controlarlas.",
-                "section_1_title": "Uso de Cookies",
-                "section_1": "Las cookies se utilizan para analizar el tráfico y mejorar el rendimiento del sitio.",
-                "section_2_title": "Desactivación de Cookies",
-                "section_2": "Puedes desactivar las cookies modificando la configuración de tu navegador.",
-                "section_3_title": "Tipos de Cookies Utilizadas",
-                "section_3": "Utilizamos cookies analíticas, cookies funcionales y cookies de publicidad."
-            }
         }
     }
 }

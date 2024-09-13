@@ -1,3 +1,34 @@
+    
+    <style>
+
+        .section-1 {
+            position: relative;
+            background-image: url('../..images/backgrounds/header.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 100px 0;
+        }
+
+        .section-1::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Filtre gris avec 50% d'opacité */
+            z-index: 1;
+        }
+
+        .section-1 .col-md-8 {
+            position: relative;
+            z-index: 2; /* Pour que le contenu soit au-dessus du filtre */
+        }
+
+
+    </style>
+    
     <!-- 1 - Slogan Section -->
     <section class="row justify-content-center align-items-center section-1 py-5 m-0" id="<?= str_replace('#', '', $config['navigation'][0]['href']); ?>" data-aos="fade-in" aria-labelledby="slogan-title">
         <div class="col-md-8">
