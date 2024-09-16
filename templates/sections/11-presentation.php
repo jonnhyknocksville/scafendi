@@ -1,3 +1,13 @@
+<style>
+
+    .fact-count {
+        border-radius: 1rem;
+    }
+
+
+</style>
+
+
 <?php
 function extract_number($html)
 {
@@ -43,7 +53,7 @@ function replace_number_with_placeholder($html)
             <div class="col-lg-6 col-md-8" data-aos="fade-left">
                 <p><?= $config['presentation'][0]['text']; ?></p>
             </div>
-            <div class="col-lg-4 col-md-12 p-0" data-aos="fade-right">
+            <div class="col-lg-4 col-md-12 p-0 my-3 my-md-0" data-aos="fade-right">
                 <img src="images/<?= htmlspecialchars($config['presentation_img']); ?>" class="img-fluid rounded"
                     alt="<?= htmlspecialchars($config['presentation_alt']); ?>">
             </div>

@@ -18,24 +18,26 @@
         "success_color": "#2ECC71",
         "warning_color": "#F1C40F",
         "info_color": "#3498DB",
-        "font_family": "Roboto:wght@400;700"
+        "font_family": "Roboto:wght@400;700",
+        "footer": "جميع الحقوق محفوظة"
+
     },
     "languages_title": "اللغات",
     "languages_title_aria": "تغيير اللغة",
     "languages": [
         {
-            "code": "fr",
-            "name": "الفرنسية",
-            "flag": "fr.png"
+            "code": "ho",
+            "name": "Magyar",
+            "flag": "ho.png"
         },
         {
             "code": "en",
-            "name": "الإنجليزية",
+            "name": "English",
             "flag": "en.png"
         },
         {
             "code": "es",
-            "name": "الإسبانية",
+            "name": "Español",
             "flag": "es.png"
         },
         {
@@ -430,13 +432,13 @@
                 "header_title": "اتصل بنا",
                 "title": "الاتصال",
                 "description": "يمكنك التواصل معنا في أي وقت. سنساعدك في العثور على الحل البشري والتقني المناسب لمشروعك.",
-                "address": "47 BD LALLA YACOUT </br> 20000 الدار البيضاء",
-                "email": "البريد الإلكتروني لسكافيندي",
-                "phone": "+212 (0)6 78 31 42 20"
+                "address": "",
+                "email": "x",
+                "phone": "x"
             },
             "map": {
-                "latitude": 33.593963,
-                "longitude": -7.619142
+                "latitude": 47.497913,
+                "longitude": 19.040236
             },
             "legal_title": "القسم القانوني",
             "legal_links": [
@@ -561,5 +563,119 @@
                 "section_3": "نحن نستخدم ملفات تعريف الارتباط التحليلية، الوظيفية، والإعلانية."
             }
         }
-    }
+    },
+    "form": {
+        "section_id": "طلب_عرض_سعر",
+        "title": "طلب عرض سعر",
+        "action": "../send_quote.php",
+        "method": "POST",
+        "inputs": [
+          {
+            "type": "text",
+            "label": "الاسم الكامل",
+            "id": "name",
+            "name": "name",
+            "placeholder": "اسمك الكامل",
+            "required": true,
+            "class": "form-control",
+            "wrapper_class": "form-group",
+            "data_aos": {
+              "fade": "right",
+              "delay": "100"
+            }
+          },
+          {
+            "type": "email",
+            "label": "البريد الإلكتروني",
+            "id": "email",
+            "name": "email",
+            "placeholder": "بريدك الإلكتروني",
+            "required": true,
+            "class": "form-control",
+            "wrapper_class": "form-group",
+            "data_aos": {
+              "fade": "right",
+              "delay": "200"
+            }
+          },
+          {
+            "type": "tel",
+            "label": "رقم الهاتف",
+            "id": "phone",
+            "name": "phone",
+            "placeholder": "رقم هاتفك",
+            "required": true,
+            "class": "form-control",
+            "wrapper_class": "form-group",
+            "data_aos": {
+              "fade": "right",
+              "delay": "300"
+            }
+          },
+          {
+            "type": "select",
+            "label": "الخدمة المطلوبة",
+            "id": "service",
+            "name": "service",
+            "required": true,
+            "class": "form-control",
+            "wrapper_class": "form-group",
+            "options": [
+              {
+                "value": "",
+                "text": "اختر خدمة",
+                "disabled": true,
+                "selected": true
+              },
+              {
+                "value": "web_development",
+                "text": "تطوير الويب"
+              },
+              {
+                "value": "mobile_app",
+                "text": "تطبيق الهاتف المحمول"
+              },
+              {
+                "value": "seo",
+                "text": "تحسين محركات البحث (SEO)"
+              },
+              {
+                "value": "maintenance",
+                "text": "الصيانة"
+              },
+              {
+                "value": "other",
+                "text": "أخرى"
+              }
+            ],
+            "data_aos": {
+              "fade": "right",
+              "delay": "400"
+            }
+          },
+          {
+            "type": "textarea",
+            "label": "تفاصيل إضافية",
+            "id": "message",
+            "name": "message",
+            "placeholder": "صف مشروعك أو طلبك",
+            "required": true,
+            "class": "form-control",
+            "wrapper_class": "form-group",
+            "rows": 4,
+            "data_aos": {
+              "fade": "right",
+              "delay": "500"
+            }
+          }
+        ],
+        "submit_button": {
+          "text": "إرسال الطلب",
+          "class": "btn btn-primary btn-block",
+          "data_aos": {
+            "fade": "up",
+            "delay": "600"
+          }
+        }
+      }
 }

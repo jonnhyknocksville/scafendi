@@ -18,15 +18,17 @@
         "success_color": "#28A745",
         "warning_color": "#E67E22",
         "info_color": "#17A2B8",
-        "font_family": "Open Sans:wght@400;700"
+        "font_family": "Open Sans:wght@400;700",
+        "footer": "Tous droits réservés"
+
     },
     "languages_title": "Langues",
     "languages_title_aria": "Changer la langue",
     "languages": [
         {
-            "code": "fr",
-            "name": "Français",
-            "flag": "fr.png"
+            "code": "ho",
+            "name": "Magyar",
+            "flag": "ho.png"
         },
         {
             "code": "en",
@@ -430,13 +432,13 @@
                 "header_title": "Contactez-nous",
                 "title": "Contact",
                 "description": "Besoin de discuter de votre projet ? Contactez notre équipe, nous serons ravis de vous aider à trouver la solution idéale.",
-                "address": "47 BD LALLA YACOUT </br> 20000 CASABLANCA",
-                "email": "contact@scafendi.com",
-                "phone": "+212 (0)6 78 31 42 20"
+                "address": "x",
+                "email": "x",
+                "phone": "x"
             },
             "map": {
-                "latitude": 33.593963,
-                "longitude": -7.619142
+                "latitude": 47.497913,
+                "longitude": 19.040236
             },
             "legal_title": "Mentions légales",
             "legal_links": [
@@ -477,5 +479,119 @@
                 }
             ]
         }
-    }
+    },
+    "form": {
+        "section_id": "devis",
+        "title": "Demandez un devis",
+        "action": "../send_quote.php",
+        "method": "POST",
+        "inputs": [
+          {
+            "type": "text",
+            "label": "Nom complet",
+            "id": "name",
+            "name": "name",
+            "placeholder": "Votre nom complet",
+            "required": true,
+            "class": "form-control",
+            "wrapper_class": "form-group",
+            "data_aos": {
+              "fade": "right",
+              "delay": "100"
+            }
+          },
+          {
+            "type": "email",
+            "label": "Adresse email",
+            "id": "email",
+            "name": "email",
+            "placeholder": "Votre adresse email",
+            "required": true,
+            "class": "form-control",
+            "wrapper_class": "form-group",
+            "data_aos": {
+              "fade": "right",
+              "delay": "200"
+            }
+          },
+          {
+            "type": "tel",
+            "label": "Numéro de téléphone",
+            "id": "phone",
+            "name": "phone",
+            "placeholder": "Votre numéro de téléphone",
+            "required": true,
+            "class": "form-control",
+            "wrapper_class": "form-group",
+            "data_aos": {
+              "fade": "right",
+              "delay": "300"
+            }
+          },
+          {
+            "type": "select",
+            "label": "Service souhaité",
+            "id": "service",
+            "name": "service",
+            "required": true,
+            "class": "form-control",
+            "wrapper_class": "form-group",
+            "options": [
+              {
+                "value": "",
+                "text": "Choisissez un service",
+                "disabled": true,
+                "selected": true
+              },
+              {
+                "value": "web_development",
+                "text": "Développement Web"
+              },
+              {
+                "value": "mobile_app",
+                "text": "Application Mobile"
+              },
+              {
+                "value": "seo",
+                "text": "SEO"
+              },
+              {
+                "value": "maintenance",
+                "text": "Maintenance"
+              },
+              {
+                "value": "other",
+                "text": "Autre"
+              }
+            ],
+            "data_aos": {
+              "fade": "right",
+              "delay": "400"
+            }
+          },
+          {
+            "type": "textarea",
+            "label": "Détails supplémentaires",
+            "id": "message",
+            "name": "message",
+            "placeholder": "Décrivez votre projet ou demande",
+            "required": true,
+            "class": "form-control",
+            "wrapper_class": "form-group",
+            "rows": 4,
+            "data_aos": {
+              "fade": "right",
+              "delay": "500"
+            }
+          }
+        ],
+        "submit_button": {
+          "text": "Envoyer la demande",
+          "class": "btn btn-primary btn-block",
+          "data_aos": {
+            "fade": "up",
+            "delay": "600"
+          }
+        }
+      }
 }

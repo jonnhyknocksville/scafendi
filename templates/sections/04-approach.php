@@ -9,7 +9,7 @@
                 
             </div>
 
-            <div class="offset-4 col-md-8 approach my-5" data-aos="fade-left">
+            <div class="offset-md-4 col-md-8 approach my-5" data-aos="fade-left">
             </div>
 
             <div class="row col-md-8">

@@ -1,15 +1,4 @@
 <style>
-    .list-carousel {
-        width: fit-content;
-        border: 1px solid
-            <?php echo htmlspecialchars($config['site']['ternary_color']) ?>
-        ;
-        border-radius: 0.5rem;
-        padding: 1rem;
-        background-color:
-            <?php echo htmlspecialchars($config['site']['ternary_color']) ?>
-        ;
-    }
 
     #<?= str_replace('#', '', $config['navigation'][1]['href']); ?> {
         position: relative;
@@ -52,11 +41,6 @@
         /* Le filtre est appliqué uniquement sur l'image */
     }
 
-    .carousel-inner,
-    .carousel-control-prev,
-    .carousel-control-next {
-        z-index:9999;
-    }
 </style>
 
 <section id="<?= str_replace('#', '', $config['navigation'][1]['href']); ?>" class="row py-5 justify-content-center">
@@ -64,7 +48,7 @@
     <div class="col-md-8">
         <!-- Section Header -->
         <div class="text-center mb-4">
-            <h2 class="section-title">Nos services</h2>
+            <h2 class="section-title"><?= $config['pages']['home']['services']['title'] ?></h2>
         </div>
 
         <!-- Services Grid -->

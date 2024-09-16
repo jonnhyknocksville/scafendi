@@ -2,7 +2,7 @@
     <div class="row col-md-10 mx-auto justify-content-between justify-content-lg-start">
         <a class="navbar-brand" href="?page=home">
             <img src="./images/<?php echo htmlspecialchars($config['site']['logo']); ?>" alt="Logo"
-                style="height: 100px;">
+                style="height: 70px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

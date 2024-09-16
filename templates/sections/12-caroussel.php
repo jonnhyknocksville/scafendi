@@ -1,14 +1,26 @@
 <style>
     .list-carousel {
-        width: fit-content;
-        border: 1px solid
-            <?php echo htmlspecialchars($config['site']['ternary_color']) ?>
-        ;
-        border-radius: 0.5rem;
+        position: relative;
         padding: 1rem;
-        background-color:
-            <?php echo htmlspecialchars($config['site']['ternary_color']) ?>
-        ;
+    }
+
+    .list-carousel::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: <?php echo htmlspecialchars($config['site']['primary_color']); ?>;
+        opacity:0.8; /* Couleur noire avec 50% d'opacité */
+        z-index: 1;
+        pointer-events: none; /* Empêche d'interférer avec le contenu */
+        border-radius: 1rem;
+    }
+
+    .list-carousel p {
+        position: relative;
+        z-index: 2; /* Place le texte au-dessus de l'arrière-plan */
     }
 
     #<?= str_replace('#', '', $config['navigation'][0]['href']); ?> {
@@ -52,6 +64,10 @@
         /* Le filtre est appliqué uniquement sur l'image */
     }
 
+    .carousel-item {
+        min-height: 366px;
+    }
+
     .carousel-inner,
     .carousel-control-prev,
     .carousel-control-next {
@@ -61,7 +77,7 @@
 
 <div id="<?= str_replace('#', '', $config['navigation'][0]['href']); ?>" class="carousel slide py-5"
     data-ride="carousel" data-interval="3000">
-    <div class="carousel-inner">
+    <div class="carousel-inner d-flex">
         <?php
         // Générer les items du carrousel dynamiquement
         $first = true;

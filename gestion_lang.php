@@ -21,6 +21,6 @@ if (file_exists($lang_file)) {
     $config = json_decode(file_get_contents($lang_file), true);
 } else {
     // Si le fichier de langue n'existe pas, charger la langue par défaut
-    $config = json_decode(file_get_contents(__DIR__ . '/fr.json'), true);
+    $config = json_decode(file_get_contents(__DIR__ . '/ho.json'), true);
 }
 ?>

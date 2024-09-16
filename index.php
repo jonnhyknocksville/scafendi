@@ -1,3 +1,10 @@
+
+<?php
+
+
+
+?>
+
 <?php
 // Charger la configuration depuis le fichier JSON
 require_once('gestion_lang.php');
@@ -19,3 +26,7 @@ $content = $config['pages'][$page]['content'] ?? '';
     include 'templates/footer.php';
 
 ?>
+
+<script>
+    
+  </script>

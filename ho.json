@@ -5,8 +5,8 @@
         "logo": "logo.png",
         "logo_footer": "logo_footer.png",
         "header-page": "header-page.jpg",
-        "header-page-alt": "Image representing Scafendi",
-        "description": "We shape your digital business with innovative web solutions! Scafendi, your IT partner to turn your ideas into digital reality.",
+        "header-page-alt": "Kép, amely Scafendit ábrázolja",
+        "description": "Digitális vállalkozásod alakítása innovatív webes megoldásokkal! A Scafendi az IT-partnered, amely az ötleteidet digitális valósággá változtatja.",
         "text_color": "#fff",
         "text_color_dark": "#666",
         "title_color": "#34303B",
@@ -19,11 +19,10 @@
         "warning_color": "#E67E22",
         "info_color": "#17A2B8",
         "font_family": "Open Sans:wght@400;700",
-        "footer": "All rights reserved"
-
+        "footer": "Minden jog fenntartva"
     },
-    "languages_title": "Languages",
-    "languages_title_aria": "Change language",
+    "languages_title": "Nyelvek",
+    "languages_title_aria": "Nyelv megváltoztatása",
     "languages": [
         {
             "code": "ho",
@@ -46,34 +45,34 @@
             "flag": "ar.png"
         }
     ],
-    "navigation_title": "Navigation",
+    "navigation_title": "Navigáció",
     "navigation": [
         {
-            "label": "Home",
+            "label": "Kezdőlap",
             "href": "#slogan"
         },
         {
-            "label": "Our Services",
+            "label": "Szolgáltatásaink",
             "href": "#services"
         },
         {
-            "label": "Our Talents",
+            "label": "Tehetségeink",
             "href": "#profiles"
         },
         {
-            "label": "Our Approach",
+            "label": "Megközelítésünk",
             "href": "#approach"
         },
         {
-            "label": "Technologies",
+            "label": "Technológiák",
             "href": "#technologies"
         },
         {
-            "label": "Testimonials",
+            "label": "Vélemények",
             "href": "#google-reviews"
         },
         {
-            "label": "Partners",
+            "label": "Partnerek",
             "href": "#partners"
         },
         {
@@ -81,90 +80,90 @@
             "href": "https://www.blog.scafendi.com"
         },
         {
-            "label": "Contact",
+            "label": "Kapcsolat",
             "href": "#contact",
             "class": "ml-5 contact"
         }
     ],
-    "button-services": "Discover our services",
-    "button-contact": "Contact us",
-    "button-services-aria-label": "See our services",
-    "button-contact-aria-label": "See our contact information",
+    "button-services": "Fedezze fel szolgáltatásainkat",
+    "button-contact": "Vegye fel velünk a kapcsolatot",
+    "button-services-aria-label": "Szolgáltatásaink megtekintése",
+    "button-contact-aria-label": "Elérhetőségeink megtekintése",
     "caroussel": [
         {
-            "title": "Your digital future starts here",
-            "text": "Scafendi is a company specializing in creating custom websites and applications.",
-            "button_1": "Discover",
-            "button_2": "Request a quote",
+            "title": "A digitális jövőd itt kezdődik",
+            "text": "A Scafendi egy testreszabott weboldalak és alkalmazások készítésére szakosodott vállalat.",
+            "button_1": "Fedezze fel",
+            "button_2": "Kérjen árajánlatot",
             "button_1_href": "#presentation",
             "button_2_href": "#devis"
         },
         {
-            "title": "Digital solutions tailored to your business",
-            "text": "Secure websites (https), e-commerce, mobile applications, cloud management, professional maintenance...",
-            "button_1": "Learn more",
-            "button_2": "Get a quote",
+            "title": "Digitális megoldások az Ön vállalkozásához",
+            "text": "Biztonságos weboldalak (https), </br> e-kereskedelem, </br> mobilalkalmazások, </br> felhőkezelés, </br> professzionális karbantartás...",
+            "button_1": "Tudjon meg többet",
+            "button_2": "Szerezzen ajánlatot",
             "button_1_href": "#presentation",
             "button_2_href": "#devis"
         }
     ],
-    "presentation_title": "IT & Digital Agency",
+    "presentation_title": "IT & Digitális Ügynökség",
     "presentation_img": "about.png",
-    "presentation_alt": "Scafendi Presentation",
+    "presentation_alt": "A Scafendi bemutatása",
     "presentation": [
         {
-            "key_number": "<h3><span>12</span></h3><h4>years<br>of expertise</h4>",
-            "text": "<b>Development experts</b>, our team provides technical and strategic skills to create your web and mobile projects. <b>Tailor-made solutions</b>, adapted to your needs."
+            "key_number": "<h3><span>12</span></h3><h4>év<br>szakértelem</h4>",
+            "text": "<b>Fejlesztési szakértők</b>, csapatunk műszaki és stratégiai szakértelmet kínál a webes és mobilprojektjeinek létrehozásához. <b>Testreszabott megoldások</b>, amelyek az Ön igényeihez igazodnak."
         },
         {
-            "key_number": "<h3><span>60</span></h3><h4>partner<br>clients</h4>",
-            "text": "From analysis to production, <em>UX</em>, design, development, <em>SEO</em>, we manage all aspects of your digital projects, ensuring hosting and long-term maintenance."
+            "key_number": "<h3><span>60</span></h3><h4>partner ügyfél</h4>",
+            "text": "Az elemzéstől a bevezetésig, <em>UX</em>, tervezés, fejlesztés, <em>SEO</em>, kezeljük digitális projektjei minden aspektusát, és hosszú távú tárhely- és karbantartási szolgáltatásokat kínálunk."
         }
     ],
     "services_details": [
         {
             "icon": "fas fa-code",
-            "title": "Custom Development",
-            "text": "Technical solutions tailored to your digital challenges."
+            "title": "Testreszabott fejlesztés",
+            "text": "Műszaki megoldások a digitális kihívásokhoz."
         },
         {
             "icon": "fas fa-globe-europe",
-            "title": "Websites",
-            "text": "Creation of showcase or institutional websites."
+            "title": "Weboldalak",
+            "text": "Vitrin- vagy intézményi weboldalak készítése."
         },
         {
             "icon": "fas fa-cart-plus",
-            "title": "E-commerce",
-            "text": "Tailor-made e-commerce solutions, ready to sell."
+            "title": "E-kereskedelem",
+            "text": "Testreszabott e-kereskedelmi megoldások, készen a forgalmazásra."
         },
         {
             "icon": "fas fa-tablet-alt",
-            "title": "Mobile Applications",
-            "text": "Development of native and hybrid applications."
+            "title": "Mobilalkalmazások",
+            "text": "Natív és hibrid alkalmazások fejlesztése."
         },
         {
             "icon": "fas fa-sitemap",
-            "title": "Responsive Design",
-            "text": "Responsive Web Design, compatible with all devices."
+            "title": "Reszponzív tervezés",
+            "text": "Reszponzív webes tervezés, minden képernyőhöz kompatibilis."
         },
         {
             "icon": "fas fa-tools",
-            "title": "Support and Maintenance",
-            "text": "Complete technical support with fast response time."
+            "title": "Támogatás és karbantartás",
+            "text": "Teljes műszaki támogatás gyors válaszidővel."
         },
         {
             "icon": "fas fa-mail-bulk",
-            "title": "Email Management",
-            "text": "Configuration and management of your professional emails."
+            "title": "E-mail kezelése",
+            "text": "Professzionális e-mailjei konfigurálása és kezelése."
         },
         {
             "icon": "fas fa-bullhorn",
-            "title": "Email Campaigns",
-            "text": "Creation and monitoring of your professional newsletters."
+            "title": "E-mail kampányok",
+            "text": "Hírlevelei megvalósítása és követése."
         }
     ],
-    "technologies_title": "Our Technologies",
-    "technologies_description": "We use the best current technologies to create reliable and high-performance solutions.",
+    "technologies_title": "Technológiáink",
+    "technologies_description": "A legjobb elérhető technológiákat használjuk, hogy megbízható és hatékony megoldásokat hozzunk létre.",
     "technologies": [
         {
             "label": "Angular",
@@ -215,67 +214,67 @@
             "src": "techno-12.png"
         }
     ],
-    "projects_title": "Our Projects",
+    "projects_title": "Projektjeink",
     "projects": [
         {
             "id": "project1",
-            "title": "Project 1: E-commerce Solution",
-            "description": "Design and development of an e-commerce platform for Qualicolis.",
+            "title": "1. projekt: E-kereskedelmi megoldás",
+            "description": "E-kereskedelmi platform tervezése és fejlesztése a Qualicolis számára.",
             "image": "project1.jpg",
             "link": "https://www.tiktok.com/@sidoustandup/playlist/Qualicolis%20%F0%9F%9A%9B%F0%9F%93%A6-7389968823123757856"
         },
         {
             "id": "project2",
-            "title": "Project 2: LMS Tool",
-            "description": "Development of a training management platform for Itecom school.",
+            "title": "2. projekt: LMS képzési eszköz",
+            "description": "Oktatási menedzsment platform fejlesztése az Itecom iskola számára.",
             "image": "project2.jpg",
             "link": "https://www.itecom-artdesign.com/"
         },
         {
             "id": "project3",
-            "title": "Project 3: Business Management Solution",
-            "description": "Development of an ERP for the education sector.",
+            "title": "3. projekt: Vállalati menedzsment megoldás",
+            "description": "ERP fejlesztése az oktatási szektor számára.",
             "image": "project3.jpg",
             "link": "https://example.com/project3"
         }
     ],
-    "google_reviews_title": "What our clients say",
+    "google_reviews_title": "Mit mondanak ügyfeleink",
     "total_reviews": 5,
     "average_rating": 4.8,
     "reviews": [
         {
             "author_name": "Alexandre D.",
-            "relative_time_description": "8 months ago",
+            "relative_time_description": "8 hónapja",
             "rating": 5,
-            "text": "A responsive and professional team. Scafendi helped us modernize our website efficiently."
+            "text": "Gyors és professzionális csapat. A Scafendi hatékonyan segített modernizálni weboldalunkat."
         },
         {
             "author_name": "Marie T.",
-            "relative_time_description": "4 months ago",
+            "relative_time_description": "4 hónapja",
             "rating": 5,
-            "text": "We entrusted Scafendi with the creation of our mobile application. Very satisfied with the result, we recommend their services."
+            "text": "A Scafendire bíztuk mobilalkalmazásunk elkészítését. Nagyon elégedettek vagyunk az eredménnyel, ajánljuk szolgáltatásaikat."
         },
         {
             "author_name": "Laura H.",
-            "relative_time_description": "1 month ago",
+            "relative_time_description": "1 hónapja",
             "rating": 5,
-            "text": "Smooth and pleasant collaboration with the Scafendi team. Quality work, deadlines respected. Excellent service!"
+            "text": "Zökkenőmentes és kellemes együttműködés a Scafendi csapatával. Minőségi munka, határidők betartása. Kiváló szolgáltatás!"
         },
         {
             "author_name": "Benoît R.",
-            "relative_time_description": "2 weeks ago",
+            "relative_time_description": "2 hete",
             "rating": 4,
-            "text": "Good service, but communication could be improved in some areas."
+            "text": "Jó szolgáltatás, de a kommunikációban van még hely javításra."
         },
         {
             "author_name": "Sarah L.",
-            "relative_time_description": "3 days ago",
+            "relative_time_description": "3 napja",
             "rating": 5,
-            "text": "Fast and impeccable work. I recommend Scafendi for all your web development needs."
+            "text": "Tökéletes és gyors munka. Ajánlom a Scafendit minden webfejlesztési igényre."
         }
     ],
-    "partners_title": "Our Partners",
-    "partners_description": "We work with leading technology partners to offer you the most efficient and tailored solutions.",
+    "partners_title": "Partnereink",
+    "partners_description": "Elsőrangú technológiai partnerekkel dolgozunk együtt, hogy a lehető legjobban teljesítő és az Ön igényeihez igazodó megoldásokat kínáljuk.",
     "partners": [
         {
             "name": "Scafendi",
@@ -283,8 +282,8 @@
             "href": "https://www.scafendi.com"
         }
     ],
-    "clients_title": "Our Clients",
-    "clients_description": "We support our clients in the success of their digital projects with tailor-made solutions adapted to their needs.",
+    "clients_title": "Ügyfeleink",
+    "clients_description": "Segítjük ügyfeleinket digitális projektjeik sikeres megvalósításában, testreszabott megoldásokkal, amelyek az igényeikhez igazodnak.",
     "clients": [
         {
             "name": "QualisColis",
@@ -302,136 +301,136 @@
             "href": "https://formationws.fr/"
         }
     ],
-    "values_title": "Our Values",
+    "values_title": "Értékeink",
     "values": [
         {
             "icon": "fas fa-thumbs-up",
-            "name": "Trust"
+            "name": "Bizalom"
         },
         {
             "icon": "fas fa-gavel",
-            "name": "Ethics"
+            "name": "Etika"
         },
         {
             "icon": "fas fa-handshake",
-            "name": "Collaboration"
+            "name": "Együttműködés"
         },
         {
             "icon": "fas fa-lightbulb",
-            "name": "Innovation"
+            "name": "Innováció"
         },
         {
             "icon": "fas fa-hand-holding-heart",
-            "name": "Commitment"
+            "name": "Elkötelezettség"
         }
     ],
     "pages": {
         "home": {
-            "slogan": "IT Solutions && Agile Expertise",
+            "slogan": "IT megoldások && Agilis szakértelem",
             "company_image": "https://source.unsplash.com/500x500/?office,teamwork",
             "services": {
-                "title": "Solutions that bring value",
-                "description": "Scafendi is your trusted partner for custom web and application development, team extension, and IT consulting."
+                "title": "Értéket adó megoldások",
+                "description": "A Scafendi az Ön preferált partnere egyedi webes megoldások és alkalmazások fejlesztéséhez, csapatbővítéshez és IT tanácsadáshoz."
             },
             "service_cards": [
                 {
                     "image": "services-1.jpg",
-                    "title": "Team Extension",
-                    "description": "<b>- Agile reinforcement</b> : Our teams strengthen your projects while optimizing your internal processes. </br><b>- Long-term partnership</b> : We work in synergy with your teams to ensure the success of your projects."
+                    "title": "Csapatbővítés",
+                    "description": "<b>- Agilis erősítés</b> : Csapataink megerősítik projektjeit, miközben optimalizálják belső folyamatait. </br><b>- Hosszú távú partnerség</b> : Együttműködünk az Ön csapataival, hogy garantáljuk projektjei sikerét."
                 },
                 {
                     "image": "services-2.jpg",
-                    "title": "Agile Squads",
-                    "description": "<b>- Tailor-made approach</b> : Our squads integrate with your teams for fast results. </br><b>- Continuous delivery</b> : Project monitoring with real-time adjustments."
+                    "title": "Agilis csapatok",
+                    "description": "<b>- Testreszabott megközelítés</b> : Agilis csapataink az Ön csapataival dolgoznak együtt a gyors eredmények érdekében. </br><b>- Folyamatos szállítás</b> : Projektkövetés valós idejű kiigazításokkal."
                 },
                 {
                     "image": "services-3.jpg",
-                    "title": "IT Consulting",
-                    "description": "<b>- Digital strategy</b> : Define your technical goals with our expertise. </br> <b>- Technical assistance</b> : Our consultants help you plan and execute your projects efficiently."
+                    "title": "IT Tanácsadás",
+                    "description": "<b>- Digitális stratégia</b> : Határozza meg műszaki céljait szakértelmünkkel. </br> <b>- Műszaki támogatás</b> : Tanácsadóink segítenek a projektek tervezésében és végrehajtásában."
                 }
             ],
             "profiles": {
-                "title": "Our Experts",
-                "description": "We provide a team of technical and product experts to successfully lead your digital projects.",
+                "title": "Szakértőink",
+                "description": "Szakértő műszaki és termékcsapatot kínálunk digitális projektjeinek sikeres megvalósításához.",
                 "members": [
                     {
                         "name": "Scrum Master",
                         "photo": "members-1",
-                        "description": "The conductor of your project! 💡"
+                        "description": "A projekt karmestere! 💡"
                     },
                     {
                         "name": "DevOps",
                         "photo": "members-2",
-                        "description": "Optimization and stability! 🖥️"
+                        "description": "Optimalizálás és stabilitás! 🖥️"
                     },
                     {
-                        "name": "Agile Coach",
+                        "name": "Agilis Coach",
                         "photo": "members-3",
-                        "description": "Agility and methodology 🚀"
+                        "description": "Agilitás és módszertan 🚀"
                     },
                     {
                         "name": "Product Owner",
                         "photo": "members-4",
-                        "description": "The key intermediary between business and the team! 💡"
+                        "description": "A kulcsfontosságú közvetítő az üzleti és a csapat között! 💡"
                     },
                     {
-                        "name": "BackEnd Developer",
+                        "name": "BackEnd fejlesztő",
                         "photo": "members-5",
-                        "description": "Solid and reliable, like your APIs! 🖥️"
+                        "description": "Szilárd és megbízható, mint az API-jaid! 🖥️"
                     },
                     {
-                        "name": "UX/UI Designer",
+                        "name": "UX/UI tervező",
                         "photo": "members-6",
-                        "description": "Aesthetics at the service of ergonomics 🚀"
+                        "description": "Az esztétika az ergonómia szolgálatában 🚀"
                     },
                     {
-                        "name": "Business Analyst",
+                        "name": "Üzleti elemző",
                         "photo": "members-7",
-                        "description": "Analysis and continuous improvement! 💡"
+                        "description": "Elemzés és folyamatos javítás! 💡"
                     },
                     {
-                        "name": "FrontEnd Developer",
+                        "name": "FrontEnd fejlesztő",
                         "photo": "members-8",
-                        "description": "Compatible with all browsers and devices! 🤓"
+                        "description": "Minden böngésző és eszköz kompatibilitása! 🤓"
                     },
                     {
-                        "name": "Quality Analyst",
+                        "name": "Minőségellenző",
                         "photo": "members-9",
-                        "description": "Your quality assurance!"
+                        "description": "A minőség garanciája!"
                     }
                 ]
             },
             "approach": {
-                "title": "Our Method",
-                "description": "Our method is simple: understand your needs, design a solution that works for you, and deploy it using the best technologies.",
-                "content": "We place your goals at the center of our approach for innovative and effective solutions.",
+                "title": "Módszerünk",
+                "description": "A módszerünk egyszerű: megértjük igényeit, tervezünk egy megoldást, amely Önnek működik, és bevezetjük azt a legjobb technológiákkal.",
+                "content": "Céljait állítjuk középpontba, hogy innovatív és hatékony megoldásokat kínáljunk.",
                 "points": [
                     {
                         "icon": "fas fa-lightbulb",
-                        "title": "Strategy and Analysis",
-                        "description": "Design and prototyping of custom solutions."
+                        "title": "Stratégia és elemzés",
+                        "description": "Testreszabott megoldások tervezése és prototípus készítése."
                     },
                     {
                         "icon": "fas fa-code",
-                        "title": "Agile Development",
-                        "description": "Continuous development with regular updates."
+                        "title": "Agilis fejlesztés",
+                        "description": "Folyamatos fejlesztés rendszeres frissítésekkel."
                     },
                     {
                         "icon": "fas fa-tachometer-alt",
-                        "title": "Optimization and Efficiency",
-                        "description": "Maximized performance for concrete results."
+                        "title": "Optimalizálás és hatékonyság",
+                        "description": "Maximális teljesítmény a konkrét eredményekért."
                     },
                     {
                         "icon": "fas fa-wrench",
-                        "title": "Support and Promotion",
-                        "description": "Guaranteed hosting, SEO, and maintenance."
+                        "title": "Támogatás és promóció",
+                        "description": "Tárhely, SEO és karbantartás biztosított."
                     }
                 ]
             },
             "contact": {
-                "header_title": "Contact us",
-                "title": "Contact",
-                "description": "Need to discuss your project? Contact our team, we will be happy to help you find the ideal human and technical solution.",
+                "header_title": "Lépjen velünk kapcsolatba",
+                "title": "Kapcsolat",
+                "description": "Szeretné megbeszélni projektjét? Lépjen kapcsolatba csapatunkkal, és segítünk megtalálni az ideális megoldást.",
                 "address": "x",
                 "email": "x",
                 "phone": "x"
@@ -440,22 +439,22 @@
                 "latitude": 47.497913,
                 "longitude": 19.040236
             },
-            "legal_title": "Legal Mentions",
+            "legal_title": "Jogi információk",
             "legal_links": [
                 {
-                    "label": "Terms of Use",
+                    "label": "Felhasználási feltételek",
                     "page": "condition_generales_utilisation"
                 },
                 {
-                    "label": "Cookies",
+                    "label": "Sütik",
                     "page": "politique_cookies"
                 },
                 {
-                    "label": "Legal Notice",
+                    "label": "Jogi nyilatkozat",
                     "page": "mention_legales"
                 }
             ],
-            "social_links_title": "Follow us",
+            "social_links_title": "Kövess minket",
             "social_links": [
                 {
                     "platform": "twitter",
@@ -481,17 +480,17 @@
         }
     },
     "form": {
-        "section_id": "quote",
-        "title": "Request a quote",
+        "section_id": "ajanlat",
+        "title": "Árajánlat kérése",
         "action": "../send_quote.php",
         "method": "POST",
         "inputs": [
             {
                 "type": "text",
-                "label": "Full Name",
+                "label": "Teljes név",
                 "id": "name",
                 "name": "name",
-                "placeholder": "Your full name",
+                "placeholder": "Teljes neved",
                 "required": true,
                 "class": "form-control",
                 "wrapper_class": "form-group",
@@ -502,10 +501,10 @@
             },
             {
                 "type": "email",
-                "label": "Email address",
+                "label": "Email cím",
                 "id": "email",
                 "name": "email",
-                "placeholder": "Your email address",
+                "placeholder": "Email címed",
                 "required": true,
                 "class": "form-control",
                 "wrapper_class": "form-group",
@@ -516,10 +515,10 @@
             },
             {
                 "type": "tel",
-                "label": "Phone number",
+                "label": "Telefonszám",
                 "id": "phone",
                 "name": "phone",
-                "placeholder": "Your phone number",
+                "placeholder": "Telefonszámod",
                 "required": true,
                 "class": "form-control",
                 "wrapper_class": "form-group",
@@ -530,7 +529,7 @@
             },
             {
                 "type": "select",
-                "label": "Desired Service",
+                "label": "Kívánt szolgáltatás",
                 "id": "service",
                 "name": "service",
                 "required": true,
@@ -539,17 +538,17 @@
                 "options": [
                     {
                         "value": "",
-                        "text": "Choose a service",
+                        "text": "Válasszon szolgáltatást",
                         "disabled": true,
                         "selected": true
                     },
                     {
                         "value": "web_development",
-                        "text": "Web Development"
+                        "text": "Webfejlesztés"
                     },
                     {
                         "value": "mobile_app",
-                        "text": "Mobile Application"
+                        "text": "Mobilalkalmazás"
                     },
                     {
                         "value": "seo",
@@ -557,11 +556,11 @@
                     },
                     {
                         "value": "maintenance",
-                        "text": "Maintenance"
+                        "text": "Karbantartás"
                     },
                     {
                         "value": "other",
-                        "text": "Other"
+                        "text": "Egyéb"
                     }
                 ],
                 "data_aos": {
@@ -571,10 +570,10 @@
             },
             {
                 "type": "textarea",
-                "label": "Additional Details",
+                "label": "További részletek",
                 "id": "message",
                 "name": "message",
-                "placeholder": "Describe your project or request",
+                "placeholder": "Írja le a projektjét vagy kérését",
                 "required": true,
                 "class": "form-control",
                 "wrapper_class": "form-group",
@@ -586,7 +585,7 @@
             }
         ],
         "submit_button": {
-            "text": "Submit Request",
+            "text": "Kérés elküldése",
             "class": "btn btn-primary btn-block",
             "data_aos": {
                 "fade": "up",

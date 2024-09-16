@@ -18,15 +18,17 @@
         "success_color": "#2ECC71",
         "warning_color": "#F1C40F",
         "info_color": "#3498DB",
-        "font_family": "Roboto:wght@400;700"
+        "font_family": "Roboto:wght@400;700",
+        "footer": "Todos los derechos reservados"
+
     },
     "languages_title": "Idiomas",
     "languages_title_aria": "Cambiar idioma",
     "languages": [
         {
-            "code": "fr",
-            "name": "Français",
-            "flag": "fr.png"
+            "code": "ho",
+            "name": "Magyar",
+            "flag": "ho.png"
         },
         {
             "code": "en",
@@ -430,13 +432,13 @@
                 "header_title": "Contáctanos",
                 "title": "Contacto",
                 "description": "Ponte en contacto con nosotros para discutir tus proyectos y cómo podemos ayudarte a convertir tus ideas en realidad.",
-                "address": "47 BD LALLA YACOUT </br> 20000 CASABLANCA",
-                "email": "email de scafendi",
-                "phone": "+212 (0)6 78 31 42 20"
+                "address": "x",
+                "email": "x",
+                "phone": "x"
             },
             "map": {
-                "latitude": 33.593963,
-                "longitude": -7.619142
+                "latitude": 47.497913,
+                "longitude": 19.040236
             },
             "legal_title": "Parte Legal",
             "legal_links": [
@@ -476,6 +478,120 @@
                     "icon": "fas fa-blog"
                 }
             ]
+        }
+    },
+    "form": {
+        "section_id": "cotizacion",
+        "title": "Solicitar una cotización",
+        "action": "../send_quote.php",
+        "method": "POST",
+        "inputs": [
+            {
+                "type": "text",
+                "label": "Nombre completo",
+                "id": "name",
+                "name": "name",
+                "placeholder": "Su nombre completo",
+                "required": true,
+                "class": "form-control",
+                "wrapper_class": "form-group",
+                "data_aos": {
+                    "fade": "right",
+                    "delay": "100"
+                }
+            },
+            {
+                "type": "email",
+                "label": "Correo electrónico",
+                "id": "email",
+                "name": "email",
+                "placeholder": "Su correo electrónico",
+                "required": true,
+                "class": "form-control",
+                "wrapper_class": "form-group",
+                "data_aos": {
+                    "fade": "right",
+                    "delay": "200"
+                }
+            },
+            {
+                "type": "tel",
+                "label": "Número de teléfono",
+                "id": "phone",
+                "name": "phone",
+                "placeholder": "Su número de teléfono",
+                "required": true,
+                "class": "form-control",
+                "wrapper_class": "form-group",
+                "data_aos": {
+                    "fade": "right",
+                    "delay": "300"
+                }
+            },
+            {
+                "type": "select",
+                "label": "Servicio deseado",
+                "id": "service",
+                "name": "service",
+                "required": true,
+                "class": "form-control",
+                "wrapper_class": "form-group",
+                "options": [
+                    {
+                        "value": "",
+                        "text": "Elija un servicio",
+                        "disabled": true,
+                        "selected": true
+                    },
+                    {
+                        "value": "web_development",
+                        "text": "Desarrollo Web"
+                    },
+                    {
+                        "value": "mobile_app",
+                        "text": "Aplicación Móvil"
+                    },
+                    {
+                        "value": "seo",
+                        "text": "SEO"
+                    },
+                    {
+                        "value": "maintenance",
+                        "text": "Mantenimiento"
+                    },
+                    {
+                        "value": "other",
+                        "text": "Otro"
+                    }
+                ],
+                "data_aos": {
+                    "fade": "right",
+                    "delay": "400"
+                }
+            },
+            {
+                "type": "textarea",
+                "label": "Detalles adicionales",
+                "id": "message",
+                "name": "message",
+                "placeholder": "Describa su proyecto o solicitud",
+                "required": true,
+                "class": "form-control",
+                "wrapper_class": "form-group",
+                "rows": 4,
+                "data_aos": {
+                    "fade": "right",
+                    "delay": "500"
+                }
+            }
+        ],
+        "submit_button": {
+            "text": "Enviar solicitud",
+            "class": "btn btn-primary btn-block",
+            "data_aos": {
+                "fade": "up",
+                "delay": "600"
+            }
         }
     }
 }

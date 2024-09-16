@@ -556,6 +556,7 @@ footer a {
     background-size: 100%;
     background-position: center;
     border-radius:10px;
+    border:10px solid <?php echo htmlspecialchars($config['site']['ternary_color']); ?>;
 }
 
 
@@ -591,10 +592,6 @@ footer a {
     caroussel
 #}
 
-.carousel-item {
-    min-height: 290px !important; /* Hauteur fixe du carrousel */
-}
-
 .carousel-item > div {
     display: flex;
     align-items: center;
@@ -612,6 +609,13 @@ footer a {
     RESPONSIVE
 
 #}
+
+@media (max-width: 768px) {
+    .text-left, p, h2 {
+        text-align: center !important;
+    }
+}
+
 
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link.contact {

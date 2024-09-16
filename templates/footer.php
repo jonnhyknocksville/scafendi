@@ -74,7 +74,7 @@
     </div>
     <!-- Footer Bottom -->
     <div class="bottom-bar text-center py-3">
-        &copy; <?php echo date('Y'); ?> <?php echo htmlspecialchars($config['site']['title']); ?>. Tous droits réservés.
+        &copy; <?php echo date('Y'); ?> <?php echo htmlspecialchars($config['site']['title']); ?>. <?php echo htmlspecialchars($config['site']['footer']); ?>
     </div>
 </footer>
 
@@ -158,6 +158,28 @@
         confirmationMessage.textContent = 'Merci ! Votre demande a été envoyée avec succès.';
         document.querySelector('#devis').appendChild(confirmationMessage);
     }
+
+    window.addEventListener('load', function() {
+    const preloader = document.querySelector('.preloader');
+    const content = document.querySelector('.content');
+
+    // Remove preloader and reveal content
+    setTimeout(() => {
+        preloader.style.opacity = '0';
+        preloader.style.transition = 'opacity 0.5s ease';
+        setTimeout(() => {
+            preloader.style.display = 'none';
+            content.classList.add('content-show');
+
+            // Initialiser AOS après que le contenu soit visible
+            AOS.init({
+                duration: 1200,
+                once: true
+            });
+        }, 500);
+    }, 500);
+});
+
 
 
 </script>
